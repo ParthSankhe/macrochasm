@@ -1,6 +1,6 @@
 # Macrochasm
 
-**A "Skyscanner for groceries":** search packaged foods by *ratios* of nutrients and cost instead of raw amounts.
+**A search engine for packaged foods by *ratios* of macros and cost. (protein per calorie, cost per gram of fibre, etc.)
 
 > Find chips with more than 2 g of protein per 30 kcal.
 > Find ready-to-eat foods with more than 5 g of fiber per dollar.
@@ -12,7 +12,7 @@ Nutrition labels tell you what's in one serving. Macrochasm answers the question
 
 ---
 
-## How it works
+## Workflow
 
 1. **Ingest:** An ETL pipeline loads the USDA FoodData Central *Branded Foods* dataset (packaged products with label nutrition and UPC codes), deduplicates label versions, and pivots nutrients into a query-friendly table.
 2. **Price:** Store prices are fetched from the Kroger Developer API and joined to products on normalized GTIN/UPC codes.
