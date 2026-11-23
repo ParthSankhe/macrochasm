@@ -1,6 +1,6 @@
 # Macrochasm
 
-**A search engine for packaged foods by *ratios* of macros and cost. (protein per calorie, cost per gram of fibre, etc.)
+A search engine for packaged foods by *ratios* of macros and cost. (protein per calorie, cost per gram of fibre, etc.)
 
 > Find chips with more than 2 g of protein per 30 kcal.
 > Find ready-to-eat foods with more than 5 g of fiber per dollar.
